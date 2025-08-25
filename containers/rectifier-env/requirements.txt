@@ -10,3 +10,5 @@ evaluate
 huggingface_hub
 numpy
 regex
+openpyxl
+transformers
