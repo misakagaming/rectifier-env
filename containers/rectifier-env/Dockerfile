@@ -49,7 +49,7 @@ RUN curl https://ollama.ai/install.sh | sh
 #RUN conda env update -f environment.yml &&\
 #    conda clean -tipy
 
-COPY Rectifier_main .
+COPY Rectifier-main .
 
 
 COPY entrypoint.sh /entrypoint.sh
