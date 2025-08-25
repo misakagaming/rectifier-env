@@ -30,11 +30,6 @@ RUN python3 -m pip install --upgrade pip && \
 COPY requirements.txt /opt/python3/venv/base/
 RUN /opt/python3/venv/base/bin/python3 -m pip install --no-cache-dir -r /opt/python3/venv/base/requirements.txt
 
-RUN /opt/python3/venv/base/bin/python3 -m pip install openai langchain langchain_openai
-RUN /opt/python3/venv/base/bin/python3 -m pip install -U langchain-ollama
-
-RUN curl https://ollama.ai/install.sh | sh
-
 #RUN ollama serve &
 #RUN ollama pull deepseek-r1:1.5b
 
