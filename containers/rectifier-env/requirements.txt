@@ -13,3 +13,4 @@ regex
 openpyxl
 transformers
 dotenv
+torch
