@@ -8,6 +8,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         wget \
         cmake \
 		curl \
+		unzip \
         ninja-build \
         build-essential \
 		checkinstall \
